@@ -20,15 +20,8 @@ import Card from "../components/Card.astro";
 		</ul>
 
 		<script>
-
-			declare global {
-				interface Window {
-					netlifyIdentity: any;
-				}
-			}
-
 			if (window.netlifyIdentity) {
-				window.netlifyIdentity.on("init", ((user, any)) => {
+				window.netlifyIdentity.on("init", (user) => {
 					if (!user) {
 						window.netlifyIdentity.on("login", () => {
 							document.location.href = "/admin/";
