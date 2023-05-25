@@ -62,6 +62,8 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
 
+We use `yarn` as our package manager so all commands will be using `yarn` (Please do not use `npm` or other package managers).
+
 All commands are run from the root of the project, from a terminal:
 
 | Command             | Action                                           |
@@ -72,6 +74,8 @@ All commands are run from the root of the project, from a terminal:
 | `yarn preview`      | Preview your build locally, before deploying     |
 | `yarn astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `yarn astro --help` | Get help using the Astro CLI                     |
+
+## Setting up
 
 # 📚 Learn More
 
