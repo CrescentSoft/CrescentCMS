@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"@astrojs/ts-plugin": "^0.4.4",
-		"astro": "^2.1.9"
+		"astro": "^2.10.15"
 	},
 	"devDependencies": {
 		"@tailwindcss/typography": "^0.5.9",
